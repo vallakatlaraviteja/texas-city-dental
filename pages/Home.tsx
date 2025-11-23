@@ -94,18 +94,21 @@ const Home: React.FC = () => {
       <section className="py-20 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading title="Real Results, Real Smiles" subtitle="See the transformations we've achieved for patients in Texas City." />
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+          <div className="flex justify-center">
             <div className="relative group overflow-hidden rounded-xl shadow-lg">
-               <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Before and After 1" className="w-full h-80 object-cover" />
-               <div className="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                 <span className="text-white font-bold text-xl">Veneers Transformation</span>
-               </div>
-               <div className="absolute top-4 left-4 bg-white/90 px-3 py-1 rounded text-xs font-bold shadow-sm">BEFORE</div>
-               <div className="absolute bottom-4 right-4 bg-primary text-white px-3 py-1 rounded text-xs font-bold shadow-sm">AFTER</div>
+              <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Before and After 1" className="w-full h-80 object-cover" />
+              <div className="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <span className="text-white font-bold text-xl">Veneers Transformation</span>
+              </div>
+              <div className="absolute top-4 left-4 bg-white/90 px-3 py-1 rounded text-xs font-bold shadow-sm">BEFORE</div>
+              <div className="absolute bottom-4 right-4 bg-primary text-white px-3 py-1 rounded text-xs font-bold shadow-sm">AFTER</div>
             </div>
           </div>
+
         </div>
       </section>
+
 
       {/* 5. MEET THE DOCTOR */}
       <section className="py-20 bg-white">
